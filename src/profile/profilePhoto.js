@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
-  render() {
-    return (
-      <div className="row">
-        <div className="logo">
-        <img src={require('./123.PNG')} />
-        </div>
-      </div>
-    );
-  }
-} 
+export default function profilePhoto() {
+  return (
+    <div className="App">
+      <img src="../123.PNG" alt="" />
+    </div>
+  );
+}

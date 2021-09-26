@@ -1,10 +1,9 @@
 import React from "react";
-import TransformText from "./TransformText";
 
-export default function App() {
+export default function fullname() {
   return (
     <div className="App">
-      <TransformText text="khayem yahya" />
-    </div>
+      <h1>khayem yahia</h1>
+          </div>
   );
 }
